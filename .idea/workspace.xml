@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec1a47c-15a2-4269-a5aa-493917c4c95c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learn/controller/ScoreCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learn/controller/ScoreCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learn/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learn/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learn/model/ScoreCheckRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learn/model/ScoreCheckRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learn/service/ScoreCheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learn/service/ScoreCheckService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,17 @@
     "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/rmbid/personal projects/LearnDocker",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
+      <command value="mvn install" />
       <command value="mvn clean install" />
     </option>
   </component>
@@ -119,7 +125,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/learn/service/ScoreCheckService.java</url>
-          <line>53</line>
+          <line>58</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

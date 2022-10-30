@@ -27,10 +27,10 @@ public class ScoreCheckService{
 
         for(Product product : scoreCheckRequest.getProducts()){
             ProductScore productScore = new ProductScore();
-            if(product.getProductType() == 1){
+            if(product.getProductType().equals("1")){
                 Context context = new Context(new MobileDeviceStrategy());
                 productScore = context.getScore(product);
-            }else if (product.getProductType() == 2){
+            }else if (product.getProductType().equals("2")){
                 Context context = new Context(new NonPortableDeviceStrategy());
                 productScore = context.getScore(product);
             }else{
